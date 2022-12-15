@@ -1,0 +1,15 @@
+.about .container .row .card {
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    min-width: 248px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.about .container .row .card img {
+    object-fit: contain;
+    width: 100%;
+    min-width: 200px;
+    height: 150px;
+}

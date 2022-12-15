@@ -1,0 +1,35 @@
+.climate-data-page .map-component .legend-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 12px;
+}
+
+.climate-data-page .map-component .legend-container .labels{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0 4px;
+    gap: 8px;
+}
+
+.climate-data-page .map-component .legend-container .legend {
+    height: 20px;
+    width: 100%;
+}
+
+.climate-data-page .map-component .legend-container .labels p {
+    /*font-size: 0.7vw;*/
+    font-size: 12px;
+    margin: 0;
+}
+
+.climate-data-page .map-component .legend-container .single-legend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: fit-content;*/
+    min-width: 30%;
+}

@@ -1,0 +1,318 @@
+.climate-data-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
+    min-height: calc(100vh - 238.2px);
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.climate-data-page .row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px;
+    gap: 24px;
+
+    position: relative;
+
+    background: white;
+    border-radius: 4px;
+
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.climate-data-page .reverse {
+    flex-direction: row-reverse;
+}
+
+.climate-data-page .row h5 {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+    color: #1c3222;
+}
+
+.climate-data-page .reverse h5 {
+    left: calc(50% + 12px)
+}
+
+/*.climate-data-page .row .chart {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 65%;*/
+/*    padding: 24px;*/
+/*    !*border: 8px solid rgba(253, 253, 253, 0.88);*!*/
+/*}*/
+
+.climate-data-page .row .table {
+    display: flex;
+    width: 35%;
+    /*min-width: 35%;*/
+}
+
+.climate-data-page .row .table .p-datatable {
+    width: 100%;
+}
+
+.climate-data-page .row p#chart-title {
+    position: absolute;
+
+}
+
+@media only screen and (max-width: 650px) {
+    .climate-data-page .row {
+        flex-direction: column;
+    }
+    .climate-data-page .reverse {
+        flex-direction: column;
+    }
+    .climate-data-page .row .chart {
+        width: 100%;
+        padding: 12px 0 0 0;
+        padding: 12px 0 0 0;
+    }
+    .climate-data-page .row p {
+        width: 80%;
+    }
+    .climate-data-page .reverse h5  {
+        left: 24px;
+    }
+    .climate-data-page .p-card {
+        width: 100% !important;
+    }
+}
+
+
+.climate-data-page .map-filters {
+    display: flex;
+    flex-direction: column;
+    /*align-items: stretch;*/
+    justify-content: space-between;
+    width: 100%;
+}
+
+.climate-data-page .map-filters  .date-and-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    padding: 12px;
+    gap: 12px;
+    background: white;
+    border-radius: 4px;
+
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.climate-data-page .layers-and-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: calc(45% - 24px);
+    gap: 20px;
+
+    /*position: unset;*/
+}
+
+.climate-data-page .layers-and-chart .layers-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 12px;
+
+    /*position: relative;*/
+
+    background: white;
+    border-radius: 4px;
+}
+
+.climate-data-page .layers-and-chart .layers-panel p {
+    margin: 0;
+}
+
+/*.climate-data-page .layers-and-chart .area-chart {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    gap: 20px;*/
+/*    padding: 12px;*/
+
+/*    position: relative;*/
+
+/*    background: white;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+/*.climate-data-page .area-chart {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: flex-start;*/
+/*    align-items: center;*/
+/*    width: 100%;*/
+/*    height: 400px;*/
+/*    gap: 20px;*/
+/*    padding: 12px;*/
+
+/*    position: relative;*/
+
+/*    background: white;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+.climate-data-page .layers-and-chart .layers-panel h4, .climate-data-page .layers-and-chart .area-chart h4 {
+    color: #343a40;
+    margin: 0;
+}
+
+.climate-data-page .filter-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 5%;
+}
+
+.item-template {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.item-template p {
+    color: #343a40;
+    margin: 0;
+}
+
+.climate-data-page .filter-row #station.column {
+    width: 30%;
+}
+.climate-data-page .filter-row .column p {
+    color: black;
+}
+
+.climate-data-page .filter-row #station.column .p-dropdown {
+    width: 100%;
+}
+
+.climate-data-page .filter-row #year.column {
+    width: 15%;
+}
+
+.climate-data-page .filter-row #year.column .p-dropdown {
+    width: 100%;
+}
+
+.climate-data-page .filter-row #station.p-dropdown {
+    width: 30%;
+
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.climate-data-page .filter-row #year.p-dropdown {
+    width: 15%;
+
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.p-dropdown-filter{
+    color: #343a40 !important;
+}
+
+.climate-data-page .filter-row .p-buttonset {
+    /*width: 30%;*/
+
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.climate-data-page .filter-row .p-buttonset .p-button {
+    /*width: 50%;*/
+}
+
+.climate-data-page .filter-row .p-multiselect {
+    width: 30%;
+}
+
+.climate-data-page .filter-row .p-multiselect-label {
+    color: #315f3d  ;
+}
+
+.climate-data-page .p-tabview {
+    width: 100%;
+}
+
+.climate-data-page .p-tabview-nav {
+    justify-content: space-evenly;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.climate-data-page .p-tabview-panels {
+    width: 100%;
+}
+
+.climate-data-page .seasonal-historical {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 24px;
+    background: white;
+    border-radius: 4px;
+}
+
+.climate-data-page .seasonal-historical h4, .climate-data-page .seasonal-historical h5 {
+    color: #343a40;
+}
+
+
+.app .body .climate-data-page .spinner-container {
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    background-color: #00000074;
+    /*width: 100%;*/
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    z-index: 10000;
+}
+.app .body .climate-data-page .spinner-container .p-progress-spinner {
+    position: sticky;
+    top: 45vh;
+}
+.app .body .climate-data-page .spinner-container .p-progress-spinner-circle {
+    stroke: #4cc555 !important;
+}

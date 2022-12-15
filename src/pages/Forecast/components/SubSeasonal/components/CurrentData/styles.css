@@ -1,0 +1,11 @@
+.climate-data-page .current-data {
+
+}
+
+.climate-data-page .current-data .title {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+}

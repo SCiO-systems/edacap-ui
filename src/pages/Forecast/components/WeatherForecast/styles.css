@@ -1,0 +1,121 @@
+.weather-forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+.weather-forecast .table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+
+    position: relative;
+
+    background: white;
+    border-radius: 4px;
+}
+
+.weather-forecast .table .p-datatable{
+    width: 100%;
+}
+
+.weather-forecast .table p, .weather-forecast .table h4 {
+    color: black;
+}
+
+.weather-forecast .chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    padding: 12px;
+
+    position: relative;
+
+    background: white;
+    border-radius: 4px;
+}
+.weather-forecast .chart p, .weather-forecast .chart h4 {
+    color: black;
+}
+.weather-forecast .chart .p-multiselect {
+    width: 100%;
+}
+
+.weather-forecast .p-accordion {
+    width: 100%;
+}
+.weather-forecast .p-accordion-content  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.weather-forecast .header-template {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.weather-forecast .header-template p {
+    margin: 0;
+    color: black;
+}
+.weather-forecast .p-button {
+    z-index: 10;
+}
+
+.weather-forecast .chart2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    /*gap: 24px;*/
+    padding: 12px;
+
+    position: relative;
+
+    background: white;
+    border-radius: 4px;
+}
+
+/*.weather-forecast .chart2 .grid{*/
+/*    width: 100%;*/
+/*}*/
+.weather-forecast .chart2 p, .weather-forecast .chart2 h4 {
+    color: black;
+}
+
+.weather-forecast  .map-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    padding: 12px;
+    gap: 12px;
+    background: white;
+    border-radius: 4px;
+
+    animation-name: FadeIn;
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.weather-forecast .table-and-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    width: 100%;
+}

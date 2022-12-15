@@ -1,0 +1,172 @@
+const newDictionary = {
+	'Clear Sky': {
+		symbol: '01',
+		text: 'Clear sky',
+	},
+	fair: {
+		symbol: '02',
+		text: 'Fair',
+	},
+	'Scattered clouds': {
+		symbol: '03',
+		text: 'Partly cloudy',
+	},
+	'Broken clouds': {
+		symbol: '04',
+		text: 'Broken clouds',
+	},
+	'Few clouds': {
+		symbol: '05',
+		text: 'Few clouds',
+	},
+	'Light shower rain': {
+		symbol: '40',
+		text: 'Light shower rain',
+	},
+	rainshowers: {
+		symbol: '05',
+		text: 'Rain showers',
+	},
+	heavyrainshowers: {
+		symbol: '41',
+		text: 'Heavy rain showers',
+	},
+	lightrainshowersandthunder: {
+		symbol: '24',
+		text: 'Light rain showers and thunder',
+	},
+	'Thunderstorm with rain': {
+		symbol: '06',
+		text: 'Thunderstorm with rain',
+	},
+	heavyrainshowersandthunder: {
+		symbol: '25',
+		text: 'Heavy rain showers and thunder',
+	},
+	lightsleetshowers: {
+		symbol: '42',
+		text: 'Light sleet showers',
+	},
+	sleetshowers: {
+		symbol: '07',
+		text: 'Sleet showers',
+	},
+	heavysleetshowers: {
+		symbol: '43',
+		text: 'Heavy sleet showers',
+	},
+	lightsleetshowersandthunder: {
+		symbol: '26',
+		text: 'Light sleet showers and thunder',
+	},
+	sleetshowersandthunder: {
+		symbol: '20',
+		text: 'Sleet showers and thunder',
+	},
+	heavysleetshowersandthunder: {
+		symbol: '27',
+		text: 'Heavy sleet showers and thunder',
+	},
+	lightsnowshowers: {
+		symbol: '44',
+		text: 'Light snow showers',
+	},
+	snowshowers: {
+		symbol: '08',
+		text: 'Snow showers',
+	},
+	heavysnowshowers: {
+		symbol: '45',
+		text: 'Heavy show showers',
+	},
+	lightsnowshowersandthunder: {
+		symbol: '28',
+		text: 'Light snow showers and thunder',
+	},
+	snowshowersandthunder: {
+		symbol: '21',
+		text: 'Snow showers and thunder',
+	},
+	heavysnowshowersandthunder: {
+		symbol: '29',
+		text: 'Heavy snow showers and thunder',
+	},
+	'Light rain': {
+		symbol: '46',
+		text: 'Light rain',
+	},
+	'Moderate rain': {
+		symbol: '09',
+		text: 'Moderate rain',
+	},
+	'Heavy rain': {
+		symbol: '10',
+		text: 'Heavy rain',
+	},
+	lightrainandthunder: {
+		symbol: '30',
+		text: 'Light rain and thunder',
+	},
+	rainandthunder: {
+		symbol: '22',
+		text: 'Rain and thunder',
+	},
+	heavyrainandthunder: {
+		symbol: '11',
+		text: 'Heavy rain and thunder',
+	},
+	lightsleet: {
+		symbol: '47',
+		text: 'Light sleet',
+	},
+	sleet: {
+		symbol: '12',
+		text: 'Sleet',
+	},
+	heavysleet: {
+		symbol: '48',
+		text: 'Heavy sleet',
+	},
+	lightsleetandthunder: {
+		symbol: '31',
+		text: 'Light sleet and thunder',
+	},
+	sleetandthunder: {
+		symbol: '23',
+		text: 'Sleet and thunder',
+	},
+	heavysleetandthunder: {
+		symbol: '32',
+		text: 'Heavy sleet and thunder',
+	},
+	lightsnow: {
+		symbol: '49',
+		text: 'Light snow',
+	},
+	snow: {
+		symbol: '13',
+		text: 'Snow',
+	},
+	heavysnow: {
+		symbol: '50',
+		text: 'Heavy snow',
+	},
+	lightsnowandthunder: {
+		symbol: '33',
+		text: 'Light snow and thunder',
+	},
+	snowandthunder: {
+		symbol: '14',
+		text: 'Snow and thunder',
+	},
+	heavysnowandthunder: {
+		symbol: '34',
+		text: 'Heavy snow and thunder',
+	},
+	fog: {
+		symbol: '15',
+		text: 'Fog',
+	},
+};
+
+export default newDictionary;

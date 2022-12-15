@@ -1,0 +1,44 @@
+.home .forecast {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    gap: 7%;
+}
+
+.home .forecast .forecast-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 80%;
+    padding: 24px;
+    gap: 24px;
+}
+
+.home .forecast .forecast-panel .weather-forecast-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home .forecast .forecast-panel .p-button {
+    padding: 10px 25px;
+}
+
+.home .forecast .forecast-panel h2 {
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.home .forecast .forecast-panel .cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+

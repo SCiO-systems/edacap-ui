@@ -1,0 +1,146 @@
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.menu-bar h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+
+    cursor: pointer;
+}
+
+.menu-bar .navigation-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.menu-bar .navigation-buttons p {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+
+    color: #1c3665;
+
+    cursor: pointer;
+}
+
+.menu-bar .navigation-buttons .p-button {
+    padding: 10px 25px;
+}
+
+.menu-bar .buttons{
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-bar .navigation-buttons p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    font-weight: 500;
+    transition: color 0.3s, background-color 0.3s;
+}
+.menu-bar .navigation-buttons p:hover{
+    transition: color 0.3s, background-color 0.3s;
+    color: #1245ee;
+    background-color: rgba(238, 238, 238, 0.4);
+}
+.menu-bar .navigation-buttons .p-ripple{
+    cursor: pointer;
+    height: 100%;
+}
+.menu-bar .navigation-buttons .p-ink{
+    background: #2d2d2d30;
+}
+
+.menu-bar .navigation-buttons .menu-option {
+    position: relative;
+    height: 100%;
+}
+
+.menu-bar .navigation-buttons .sub-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: -1px 3px 8px -3px gray;
+
+
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: auto;
+    z-index: 1100;
+    transition: all 0.3s ease 0s, visibility 0s linear  0.3s, z-index 0s linear 0.01s;
+}
+
+.menu-bar .navigation-buttons .menu-option:focus .sub-menu,
+.menu-bar .navigation-buttons .menu-option:focus-within .sub-menu,
+.menu-bar .navigation-buttons .menu-option:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1100;
+    transition-delay: 0s,0s,0.3s;
+}
+
+.menu-bar .navigation-buttons .sub-menu .divider {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    margin: 0;
+}
+.menu-bar .navigation-buttons .sub-menu p {
+    font-size: 15px;
+    justify-content: flex-start;
+}
+
+.menu-bar .bar{
+    display: flex;
+    height: 2px;
+    /*background-color: #2d2d2d;*/
+    width: 100px;
+    position: absolute;
+    transition: position 0.6s
+}
+
+
+.register-dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 12px;
+    padding: 24px;
+}
+
+.register-dialog .p-inputtext {
+    width: 100%;
+}
+
+.register-dialog .p-float-label {
+    width: 100%;
+}
+
+.register-dialog .p-divider {
+    margin: 0;
+}
+
+.register .p-dialog-header {
+    display: none;
+}

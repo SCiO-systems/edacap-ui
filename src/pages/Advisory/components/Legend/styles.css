@@ -1,0 +1,17 @@
+.advisory .legend {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.advisory .legend .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 25%;
+}
+
+.advisory .legend .section  p {
+    color: white;
+}

@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 48px;
+    padding: 24px;
+
+    min-height: calc(100vh - 62.8px);
+    background-color: #ebf1fd;
+
+    background-image: url(/src/assets/Home/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home .header {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    gap: 12px;
+}
+
+.home .header p {
+    margin: 0;
+
+    color: #1c3665;
+}
+
+.home .dropdowns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 48px;
+}
+
+.home .forecast-advisory {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 87%;
+    gap: 24px;
+}
+
+.home .forecast-advisory p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+
+    color: #1c3665;
+}
+
+.home .forecast-advisory .p-button  {
+    width: 25%;
+    padding: 10px;
+}

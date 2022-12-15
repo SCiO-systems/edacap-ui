@@ -1,0 +1,73 @@
+.map-component {
+    display: flex;
+    flex-direction: column;
+    /*width: 100%;*/
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+
+    position: sticky;
+    top: 80px;
+}
+
+
+.map-component .leaflet-container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.map-component .reset-zoom {
+    display: flex;
+    position: absolute;
+    top: 82px;
+    right: 22px;
+    border-radius: 2px;
+    background-color: white;
+    z-index: 1100;
+    cursor: pointer;
+}
+
+
+.map-component .reset-zoom i {
+    padding: 6px;
+}
+
+.map-component .area-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 300px;
+    gap: 20px;
+    padding: 12px;
+
+    position: absolute;
+    bottom: 15%;
+    right: 10px;
+    z-index: 10000;
+
+    /*background: white;*/
+    /*border-radius: 4px;*/
+
+    background: rgba(255, 255, 255, 0.47);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.leaflet-popup-content-wrapper p{
+    color: black;
+    margin: 0;
+}
+
+.leaflet-draw-toolbar .leaflet-draw-draw-circlemarker {
+    background: url(/src/assets/Forecast/circleMarker.svg) no-repeat !important;
+    background-color: #FFF !important;
+    background-position: center !important;
+}

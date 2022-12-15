@@ -1,0 +1,16 @@
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.51);
+    position: fixed;
+    top: 0;
+
+    z-index: 10000;
+}
+
+.loader .p-progress-spinner-circle{
+    stroke: #1245ee !important;
+}

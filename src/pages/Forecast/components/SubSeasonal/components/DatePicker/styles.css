@@ -1,0 +1,12 @@
+.date-picker {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.date-picker .p-slider.p-slider-horizontal {
+    width: 80%;
+}

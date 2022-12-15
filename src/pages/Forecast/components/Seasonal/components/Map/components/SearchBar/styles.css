@@ -1,0 +1,13 @@
+.climate-data-page .map-component .p-autocomplete {
+    position: absolute;
+    top: 22px;
+    left: auto;
+    z-index: 999;
+    width: 70%;
+}
+
+.climate-data-page .map-component .p-inputtext{
+    color: black;
+    width: 100%;
+    padding: 10px;
+}

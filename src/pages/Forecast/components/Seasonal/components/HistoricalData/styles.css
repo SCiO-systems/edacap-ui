@@ -1,0 +1,56 @@
+.climate-data-page .historical-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 12px;
+}
+
+.climate-data-page .historical-data .category-button-template i {
+    font-size: 20px;
+}
+.climate-data-page .historical-data .p-buttonset .p-button{
+    padding: 0;
+}
+
+.climate-data-page .historical-data .category-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.climate-data-page .historical-data .category-content .divider {
+    display: flex;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(201, 201, 201, 0.48);
+    margin: 20px 0;
+}
+
+.climate-data-page .historical-data .category-content .title {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+
+.climate-data-page .historical-data .category-content .chart-container {
+    display: flex;
+    padding: 12px;
+}
+
+.climate-data-page .historical-data .no-category {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.climate-data-page .historical-data p {
+    color: black;
+}

@@ -1,0 +1,30 @@
+.climate-data-page .p-datatable {
+    width: 100%;
+    /*border: 1px solid #b6b6b6;*/
+    /*border-top-left-radius: 4px;*/
+}
+
+.climate-data-page .p-datatable-table {
+    /*border: 1px solid #b6b6b6;*/
+    border-top-left-radius: 4px;
+}
+
+.climate-data-page .p-datatable-thead {
+    background-color: #1245ee;
+}
+
+.climate-data-page .p-datatable-wrapper {
+    border-radius: 8px !important;
+}
+.climate-data-page  .p-datatable-thead tr,  .climate-data-page  .p-datatable-thead th {
+    background: transparent !important;
+    color: white !important;
+}
+
+/*.layers-panel .p-datatable .p-column-header-content {*/
+/*    justify-content: center;*/
+/*}*/
+
+/*.layers-panel .p-datatable {*/
+/*    width: 100%;*/
+/*}*/

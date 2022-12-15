@@ -1,0 +1,86 @@
+.advisory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 48px;
+    padding: 24px;
+
+    min-height: calc(100vh - 62.8px);
+    background-color: #ebf1fd;
+
+    background-image: url(/src/assets/Home/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.advisory .map {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+    width: 90%;
+}
+
+.advisory .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    gap: 12px;
+    padding: 8px 34px;
+}
+
+.advisory .header .header-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2px;
+}
+
+.advisory .header .header-section p {
+    margin: 0;
+}
+
+.advisory .crop-advisory {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    gap: 12px;
+    padding: 8px 26px;
+}
+
+.advisory .crop-advisory .title {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    gap: 18px;
+}
+
+.advisory .crop-advisory .container {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 24px;
+    width: 48%;
+    min-width: 450px
+}
+
+.advisory .crop-advisory .container .calendars {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.advisory .crop-advisory .container .calendars .p-calendar {
+    width: 100%;
+}
+
+.advisory .crop-advisory .container .chart-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
